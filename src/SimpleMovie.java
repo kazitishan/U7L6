@@ -16,6 +16,14 @@ public class SimpleMovie {
 
     }
 
+    public String getActorsData(){
+        return actorsData;
+    }
+
+    public int getNumOfActors(){
+        return actors.size();
+    }
+
     public String toString() {
         return "Title: " + title + "\n" + "Actors: " + actors + "\n";
     }

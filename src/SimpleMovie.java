@@ -16,6 +16,14 @@ public class SimpleMovie {
 
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public ArrayList<String> getActors() {
+        return actors;
+    }
+
     public String getActorsData(){
         return actorsData;
     }

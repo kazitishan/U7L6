@@ -4,7 +4,6 @@ import java.util.Scanner; // Import the Scanner class to read text files
 import java.util.ArrayList;
 
 public class MovieDatabaseBuilder {
-
     public static ArrayList<SimpleMovie> getMovieDB(String fileName) {
         ArrayList<SimpleMovie> movies = new ArrayList<SimpleMovie>();
         try {
